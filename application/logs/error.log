@@ -1,0 +1,6 @@
+[2022-07-23 02:05:16.949] error: 	500 internal server error - backend server | select * from "t_m_user" where "c_status" != $1 and "c_email" = $2 limit $3 - column "c_email" does not exist
+[2022-07-23 02:06:22.535] error: 	500 internal server error - backend server | select * from "t_m_user" where "c_status" != $1 and "c_email" = $2 limit $3 - column "c_email" does not exist
+[2022-07-23 02:13:30.130] error: 	500 internal server error - backend server | data and hash arguments required
+[2022-07-23 02:14:29.403] error: 	500 internal server error - backend server | data and hash arguments required
+[2022-07-23 02:15:12.587] error: 	500 internal server error - backend server | data and hash arguments required
+[2022-07-23 02:32:27.599] error: 	500 internal server error - backend server | select * from "t_m_user" where "c_status" != $1 and "c_email" = $2 limit $3 - relation "t_m_user" does not exist

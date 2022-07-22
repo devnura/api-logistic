@@ -1,0 +1,92 @@
+[2022-07-23 00:17:10.751] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 00:18:09.894] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 00:18:32.181] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 00:55:03.155] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 00:55:19.852] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 00:55:49.724] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 00:56:04.781] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 00:56:19.292] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 00:56:22.623] info: 	619291363097 REQUEST login: {}
+[2022-07-23 00:56:22.624] warn: 	619291363097 RESPONSE login: {"code":"400","message":"Email is required","data":{}}
+[2022-07-23 01:24:24.617] info: 	1057611364037 REQUEST login: {"email":"","password":""}
+[2022-07-23 01:24:24.618] warn: 	1057611364037 RESPONSE login: {"code":"400","message":"Email is required","data":{}}
+[2022-07-23 01:24:28.497] info: 	1081334682848 REQUEST login: {"email":"a","password":""}
+[2022-07-23 01:24:28.498] warn: 	1081334682848 RESPONSE login: {"code":"400","message":"Email format wrong","data":{}}
+[2022-07-23 01:26:04.674] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 01:26:09.813] info: 	330603969792 REQUEST login: {"email":"a","password":""}
+[2022-07-23 01:26:09.815] warn: 	330603969792 RESPONSE login: {"code":"400","message":"Email format wrong","data":{}}
+[2022-07-23 01:26:39.239] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 01:26:47.452] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 01:26:49.031] info: 	119628763881 REQUEST login: {"email":"a","password":""}
+[2022-07-23 01:26:49.032] warn: 	119628763881 RESPONSE login: {"code":"400","message":"Invalid Email format","data":{}}
+[2022-07-23 01:27:11.065] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 01:27:14.793] info: 	1259466051292 REQUEST login: {"email":"a","password":""}
+[2022-07-23 01:27:14.794] warn: 	1259466051292 RESPONSE login: {"code":"400","message":"Invalid Email format","data":{}}
+[2022-07-23 01:28:40.565] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 01:36:32.605] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 01:36:34.630] info: 	1324290285038 REQUEST login: {"email":"a","password":""}
+[2022-07-23 01:36:34.631] warn: 	1324290285038 RESPONSE login: {"code":"400","message":"Invalid Email format","data":{}}
+[2022-07-23 01:36:47.956] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 01:37:52.527] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 01:47:47.603] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 01:47:51.279] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 01:47:56.674] info: 	1289705407956 REQUEST login: {"email":"a","password":""}
+[2022-07-23 01:47:56.675] warn: 	1289705407956 RESPONSE login: {"code":"400","message":"Invalid Email format","data":{}}
+[2022-07-23 01:49:27.968] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 01:49:32.245] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 01:53:34.286] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 01:54:56.887] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 01:57:20.422] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 01:57:45.950] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 01:57:59.505] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 02:03:42.017] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 02:03:46.860] info: 	7d4a00e2-a3c1-4919-b4ab-7e63557945b3 REQUEST login: {"email":"a","password":""}
+[2022-07-23 02:03:46.861] warn: 	7d4a00e2-a3c1-4919-b4ab-7e63557945b3 RESPONSE login: {"code":"400","message":"Invalid Email format","data":{}}
+[2022-07-23 02:05:16.811] info: 	0d646a6f-a90b-4769-9050-8d42a7f9a353 REQUEST login: {"email":"zkdlin@mail.com","password":"password"}
+[2022-07-23 02:05:16.949] error: 	500 internal server error - backend server | select * from "t_m_user" where "c_status" != $1 and "c_email" = $2 limit $3 - column "c_email" does not exist
+[2022-07-23 02:06:10.842] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 02:06:22.429] info: 	a7f6ee96-6068-4a63-b195-79d494890010 REQUEST login: {"email":"zkdlin@mail.com","password":"password"}
+[2022-07-23 02:06:22.535] error: 	500 internal server error - backend server | select * from "t_m_user" where "c_status" != $1 and "c_email" = $2 limit $3 - column "c_email" does not exist
+[2022-07-23 02:06:53.776] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 02:06:57.137] info: 	b7a83ee6-0d54-443d-bd1c-9ecc6aef1653 REQUEST login: {"email":"zkdlin@mail.com","password":"password"}
+[2022-07-23 02:06:57.375] warn: 	b7a83ee6-0d54-443d-bd1c-9ecc6aef1653 RESPONSE login: {"code":"403","message":"Partner User doesn't exists.","data":{}}
+[2022-07-23 02:07:24.535] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 02:07:38.756] info: 	b02c8008-755e-4531-9e46-d579ec0ac22d REQUEST login: {"email":"zkdlin@mail.com","password":"password"}
+[2022-07-23 02:07:38.866] warn: 	b02c8008-755e-4531-9e46-d579ec0ac22d RESPONSE login: {"code":"403","message":"User doesn't exists.","data":{}}
+[2022-07-23 02:08:12.128] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 02:11:35.546] info: 	9020007c-5be0-4c5f-a826-0039ff0701da REQUEST login: {"email":"admin@mail.com","password":"password"}
+[2022-07-23 02:11:35.778] warn: 	9020007c-5be0-4c5f-a826-0039ff0701da RESPONSE login: {"code":"403","message":"User doesn't exists.","data":{}}
+[2022-07-23 02:11:56.226] info: 	351c37c3-27f4-4d5a-9a95-fb6c181aedd5 REQUEST login: {"email":"admin@gmail.com","password":"password"}
+[2022-07-23 02:11:56.229] warn: 	351c37c3-27f4-4d5a-9a95-fb6c181aedd5 RESPONSE login: {"code":"403","message":"User doesn't exists.","data":{}}
+[2022-07-23 02:12:14.947] info: 	144d6602-2cbb-40d7-a68d-ef6498204320 REQUEST login: {"email":"admin@gmail.com","password":"password"}
+[2022-07-23 02:12:14.949] warn: 	144d6602-2cbb-40d7-a68d-ef6498204320 RESPONSE login: {"code":"403","message":"User doesn't exists.","data":{}}
+[2022-07-23 02:13:26.277] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 02:13:29.893] info: 	122a66ca-8cb1-4bac-ab58-b5c17c90cbb3 REQUEST login: {"email":"admin@gmail.com","password":"password"}
+[2022-07-23 02:13:30.130] error: 	500 internal server error - backend server | data and hash arguments required
+[2022-07-23 02:13:48.847] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 02:14:27.570] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 02:14:29.299] info: 	34375285-05fe-4de0-a522-521bd18c12cf REQUEST login: {"email":"admin@gmail.com","password":"password"}
+[2022-07-23 02:14:29.403] error: 	500 internal server error - backend server | data and hash arguments required
+[2022-07-23 02:14:38.962] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 02:15:12.244] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 02:15:12.480] info: 	72f28d12-6105-4f03-b2cf-8f0c9bdfb58b REQUEST login: {"email":"admin@gmail.com","password":"password"}
+[2022-07-23 02:15:12.587] error: 	500 internal server error - backend server | data and hash arguments required
+[2022-07-23 02:15:49.175] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 02:15:50.426] info: 	e725c951-7177-42cc-a43f-34dcbdba5053 REQUEST login: {"email":"admin@gmail.com","password":"password"}
+[2022-07-23 02:15:50.607] warn: 	e725c951-7177-42cc-a43f-34dcbdba5053 RESPONSE login: {"code":"403","message":"Password is wrong.","data":{}}
+[2022-07-23 02:16:22.342] info: 	bff8ab54-48ed-4c0d-8758-fe54f098bc8d REQUEST login: {"email":"admin@gmail.com","password":"admin"}
+[2022-07-23 02:16:22.427] info: 	bff8ab54-48ed-4c0d-8758-fe54f098bc8d RESPONSE login: {"code":"00","message":"Login Success.","data":{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2NvZGUiOiJVMkZzZEdWa1gxOGRZQzVGMjdWNlJMZVhNbzJUdE1xRXZNRU9SckUzK0l3PSIsImlhdCI6MTY1ODUxNzM4MiwiZXhwIjoxNjYxMTA5MzgyLCJpc3MiOiJDTVMgS2VyZXRhIENvbW11dGVyIEluZG9uZXNpYSJ9.0bqp-3t_bMbTp50nJvPbpOB8zwSLgEr--uCxSCrOuqU","refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2NvZGUiOiJVMkZzZEdWa1gxL3pHMWVTZGUwNkdvbXBGNEtWelZDd3kxT1FTamVOMUVJPSIsInVzZXJfZW1haWwiOiJVMkZzZEdWa1gxL0Q1Y01pY2srOG5uWC9GbGwzQUU4YXJadEhrYTdnaldJPSIsImlhdCI6MTY1ODUxNzM4MiwiZXhwIjoxNjYzNzAxMzgyLCJpc3MiOiJDTVMgS2VyZXRhIENvbW11dGVyIEluZG9uZXNpYSJ9.i0OODRdNlquhuTgXJaPUBb1sDEnCn4c4jT38Srhkpsc"}}
+[2022-07-23 02:17:49.095] info: 	d11148fa-55cf-4d09-911c-0f8ddc89407c REQUEST login: {"email":"admin@gmail.com","password":"admin"}
+[2022-07-23 02:17:49.172] info: 	d11148fa-55cf-4d09-911c-0f8ddc89407c RESPONSE login: {"code":"00","message":"Login Success.","data":{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2NvZGUiOiJVMkZzZEdWa1gxOTB4WGlYRDVaY2kwcG1PWmJPTE12Z1MrSnE0bU0xZnRFPSIsImlhdCI6MTY1ODUxNzQ2OSwiZXhwIjoxNjYxMTA5NDY5LCJpc3MiOiJDTVMgS2VyZXRhIENvbW11dGVyIEluZG9uZXNpYSJ9.tFZIzGMwtnsiSYolGBFHAvWZkI47zQErMEWa4cUaKr4","refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2NvZGUiOiJVMkZzZEdWa1gxOWtZUzhpblZvOVBCeUV5TTZkcVdGSVFDM2UvQ1ovK1pNPSIsInVzZXJfZW1haWwiOiJVMkZzZEdWa1gxK29HbkNVUGIyZVhGNXZXZlJhQlVxa2hMWDdPQWphT0VzPSIsImlhdCI6MTY1ODUxNzQ2OSwiZXhwIjoxNjYzNzAxNDY5LCJpc3MiOiJDTVMgS2VyZXRhIENvbW11dGVyIEluZG9uZXNpYSJ9.wZzyR4oIc7eD2Rkqooqh8evo8DK7tScHosSB_OydCmQ"}}
+[2022-07-23 02:20:00.140] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 02:21:55.810] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 02:22:06.754] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 02:22:46.131] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 02:26:38.288] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 02:29:37.844] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 02:29:50.119] info: 	510aa626-1444-42b0-a5e9-c1e383bae124 REQUEST login: {"email":"admin@gmail.com","password":"admin"}
+[2022-07-23 02:29:50.300] info: 	510aa626-1444-42b0-a5e9-c1e383bae124 RESPONSE login: {"code":"00","message":"Login Success.","data":{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2NvZGUiOiJVMkZzZEdWa1gxK01WQVdtdlFJM0U2TzRiK0tSdHVTVXgzTnlzc0VWUThRPSIsImlhdCI6MTY1ODUxODE5MCwiZXhwIjoxNjYxMTEwMTkwLCJpc3MiOiJDTVMgS2VyZXRhIENvbW11dGVyIEluZG9uZXNpYSJ9.dXmpj5kVfeik3s1wHVSeY4Gc_peVVivsiPsw5X4vgO4","refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2NvZGUiOiJVMkZzZEdWa1gxL3pHMWVTZGUwNkdvbXBGNEtWelZDd3kxT1FTamVOMUVJPSIsInVzZXJfZW1haWwiOiJVMkZzZEdWa1gxL0Q1Y01pY2srOG5uWC9GbGwzQUU4YXJadEhrYTdnaldJPSIsImlhdCI6MTY1ODUxNzM4MiwiZXhwIjoxNjYzNzAxMzgyLCJpc3MiOiJDTVMgS2VyZXRhIENvbW11dGVyIEluZG9uZXNpYSJ9.i0OODRdNlquhuTgXJaPUBb1sDEnCn4c4jT38Srhkpsc"}}
+[2022-07-23 02:31:49.866] info: 	Server is running on environment: DEVELOPMENT
+[2022-07-23 02:32:14.711] info: 	Server is running on environment: PRODUCTION
+[2022-07-23 02:32:27.453] info: 	48494713-0654-4698-96fb-855fc9bf05f2 REQUEST login: {"email":"admin@gmail.com","password":"admin"}
+[2022-07-23 02:32:27.599] error: 	500 internal server error - backend server | select * from "t_m_user" where "c_status" != $1 and "c_email" = $2 limit $3 - relation "t_m_user" does not exist
